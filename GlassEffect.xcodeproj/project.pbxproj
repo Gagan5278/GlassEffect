@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D17DFB52A4B1A2E0060D4EB /* GlassEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17DFB42A4B1A2E0060D4EB /* GlassEffectApp.swift */; };
 		5D17DFB72A4B1A2E0060D4EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17DFB62A4B1A2E0060D4EB /* ContentView.swift */; };
 		5D17DFB92A4B1A2F0060D4EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D17DFB82A4B1A2F0060D4EB /* Assets.xcassets */; };
 		5D17DFBC2A4B1A2F0060D4EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D17DFBB2A4B1A2F0060D4EB /* Preview Assets.xcassets */; };
+		5D17DFC42A4B1BD10060D4EB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17DFC32A4B1BD10060D4EB /* HomeView.swift */; };
+		5D17DFC72A4B1E180060D4EB /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17DFC62A4B1E180060D4EB /* AppColor.swift */; };
+		5D17DFC92A4B29890060D4EB /* TransparentBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17DFC82A4B29890060D4EB /* TransparentBlurView.swift */; };
+		5D17DFCB2A4B33EA0060D4EB /* TransparentBlurViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17DFCA2A4B33EA0060D4EB /* TransparentBlurViewHelper.swift */; };
+		5D17DFCD2A4B37B90060D4EB /* GlassEffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D17DFCC2A4B37B90060D4EB /* GlassEffectApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5D17DFB12A4B1A2E0060D4EB /* GlassEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D17DFB42A4B1A2E0060D4EB /* GlassEffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassEffectApp.swift; sourceTree = "<group>"; };
 		5D17DFB62A4B1A2E0060D4EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D17DFB82A4B1A2F0060D4EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D17DFBB2A4B1A2F0060D4EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D17DFC32A4B1BD10060D4EB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5D17DFC62A4B1E180060D4EB /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		5D17DFC82A4B29890060D4EB /* TransparentBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurView.swift; sourceTree = "<group>"; };
+		5D17DFCA2A4B33EA0060D4EB /* TransparentBlurViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentBlurViewHelper.swift; sourceTree = "<group>"; };
+		5D17DFCC2A4B37B90060D4EB /* GlassEffectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassEffectApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		5D17DFB32A4B1A2E0060D4EB /* GlassEffect */ = {
 			isa = PBXGroup;
 			children = (
-				5D17DFB42A4B1A2E0060D4EB /* GlassEffectApp.swift */,
+				5D17DFC52A4B1E070060D4EB /* Color */,
+				5D17DFC22A4B1BC70060D4EB /* View */,
 				5D17DFB62A4B1A2E0060D4EB /* ContentView.swift */,
+				5D17DFCC2A4B37B90060D4EB /* GlassEffectApp.swift */,
 				5D17DFB82A4B1A2F0060D4EB /* Assets.xcassets */,
 				5D17DFBA2A4B1A2F0060D4EB /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				5D17DFBB2A4B1A2F0060D4EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D17DFC22A4B1BC70060D4EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D17DFC32A4B1BD10060D4EB /* HomeView.swift */,
+				5D17DFC82A4B29890060D4EB /* TransparentBlurView.swift */,
+				5D17DFCA2A4B33EA0060D4EB /* TransparentBlurViewHelper.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D17DFC52A4B1E070060D4EB /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				5D17DFC62A4B1E180060D4EB /* AppColor.swift */,
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D17DFC42A4B1BD10060D4EB /* HomeView.swift in Sources */,
+				5D17DFC72A4B1E180060D4EB /* AppColor.swift in Sources */,
 				5D17DFB72A4B1A2E0060D4EB /* ContentView.swift in Sources */,
-				5D17DFB52A4B1A2E0060D4EB /* GlassEffectApp.swift in Sources */,
+				5D17DFCB2A4B33EA0060D4EB /* TransparentBlurViewHelper.swift in Sources */,
+				5D17DFC92A4B29890060D4EB /* TransparentBlurView.swift in Sources */,
+				5D17DFCD2A4B37B90060D4EB /* GlassEffectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
