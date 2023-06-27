@@ -91,7 +91,7 @@ extension HomeView {
             Text("Password")
                 .font(.callout.bold())
                 .padding(.top, 15)
-            customTextField(placeholder: "Enter user name", value: $password)
+            customTextField(placeholder: "Enter user name", value: $password, isPassword: true)
             
             Button(action: {}, label: {
                 Text("Login")
