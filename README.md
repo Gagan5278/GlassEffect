@@ -1,4 +1,6 @@
 # GlassEffect
+
+## Xcode 15.2 Beta
 SwiftUI implementation for glass effect on View 
 
 Video Link: https://youtube.com/shorts/SBfd3CpljoU
